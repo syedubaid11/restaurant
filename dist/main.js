@@ -1,1 +1,1 @@
-(()=>{"use strict";!function(){const e=document.createElement("h1");document.createElement("img"),document.createElement("p"),e.textContent="Hilltown Pizza",e.classList.add("heading"),console.log("checking if")}(),console.log("check")})();
+(()=>{"use strict";document.querySelector("#content").innerHTML="hello",console.log("checking if"),console.log("check")})();
