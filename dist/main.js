@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("test"),function(e){const t=document.createElement("h1");document.createElement("img"),document.createElement("p"),t.textContent="Hilltown Pizza",t.classList.add("heading"),console.log("check")}()})();
+(()=>{"use strict";var e={};(e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})})(e),(0,e.default)()})();
