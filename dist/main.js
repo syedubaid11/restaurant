@@ -1,1 +1,1 @@
-(()=>{"use strict";document.querySelector("#content").innerHTML="hello",console.log("checking if"),console.log("check")})();
+(()=>{"use strict";!function(){const e=document.querySelector("#content");e.setAttribute("id","content"),e.innerHTML="The Best Pizzas in Town",console.log("checking if")}(),console.log("check")})();
