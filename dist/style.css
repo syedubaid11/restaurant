@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
 body{
+    background-image:url('background.jpg');
+    width: 100vw;
+    height: 100vh; 
+    background-size:cover;
+}
+
+#contentcontainer{
     display: flex;
-    flex-direction: center;
+    justify-content: center;
+    align-items:center;
+}
+#content{
+    margin-top:70px;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+
 }

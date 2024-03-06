@@ -1,1 +1,1 @@
-(()=>{"use strict";!function(){const e=document.querySelector("#content");e.setAttribute("id","content"),e.innerHTML="The Best Pizzas in Town",console.log("checking if")}(),console.log("check")})();
+(()=>{"use strict";!function(){document.getElementById("content").innerHTML="Pie Perfection";const e=document.getElementById("head"),t=document.createElement("div");t.setAttribute("id","heading"),t.innerHTML="Downing Street Pizza",e.append(t)}(),console.log("check")})();
