@@ -7,7 +7,7 @@ export default function createHome(){
     const head=document.getElementById("head")
     const heading=document.createElement('div')
     heading.setAttribute('id','heading')
-    heading.innerHTML="Downing Street Pizza"
+    heading.innerHTML=""
     
     head.append(heading)
 
