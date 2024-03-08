@@ -8,7 +8,7 @@ const menulink=document.getElementById("menu");
 menulink.addEventListener('click',()=>{
     menu();
 });
-const home=documnet.getElementById("home")
+const home=document.getElementById("home")
 home.addEventListener('click',()=>{
     createHome()
 })
