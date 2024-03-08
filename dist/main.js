@@ -1,1 +1,1 @@
-(()=>{"use strict";document.getElementById("content").innerHTML="Pie Perfection",document.getElementById("menu").addEventListener("click",void(document.getElementById("content").innerHTML="check"))})();
+(()=>{"use strict";document.getElementById("content").innerHTML="Pie Perfection",document.getElementById("menu").addEventListener("click",(()=>{document.getElementById("content").innerHTML="check"}))})();
