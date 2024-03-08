@@ -25,7 +25,7 @@ body{
     font-size: 100px;
     text-align: center;
     font-family: "Dancing Script", cursive;
-    color:black;
+    color:white;
 
 }
 
@@ -36,8 +36,9 @@ body{
     align-items: end;
     font-family: "Barlow Condensed", sans-serif;
     height:60px;
+    margin-right:300px;
+    border-radius:12px;
     filter:blur()
-    
 
     
 }
@@ -46,16 +47,19 @@ body{
     border:none;
     background:none;
     font-size:25px;
+    color:white;
 }
 #home:hover{
     cursor:pointer;
     font-size:27px;
+    color:white;
 }
 
 #contactus{
     border:none;
     background:none;
     font-size:25px;
+    color:white;
 }
 
 #contactus:hover{
@@ -67,6 +71,7 @@ body{
     border:none;
     background:none;
     font-size:25px;
+    color:white;
 }
 #location:hover{
     cursor:pointer;
@@ -77,6 +82,7 @@ body{
     border:none;
     background:none;
     font-size:25px;
+    color:white;
     
 
 }
