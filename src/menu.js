@@ -4,7 +4,7 @@ export default function menu(){
 
     const contentbody=document.createElement("div")
     contentbody.setAttribute("id","content-body")
-    contentbody.innerHTML="Veg Pizza</br>Non Veg Pizza</br>"
+    contentbody.innerHTML="Espresso</br>Latte</br>Cappuccino"
     
     content.appendChild(contentbody)
     
