@@ -10,17 +10,17 @@
 
 body{
     background-image:url('background.jpg');
-    width: 100vw;
-    height: 100vh; 
-    background-size:cover;
-    
+    min-width: 100vw;
+    min-height: 100vh; 
+    background-size:100%;    
 }
 
 #contentcontainer{
     display: flex;
     justify-content: center;
     align-items:center;
-    flex-wrap: wrap;
+    flex:wrap;
+    
 }
 #content{
     margin-top:12rem;
@@ -35,6 +35,7 @@ body{
 
 #navbar{
     display: flex;
+    flex-wrap: wrap;
     background-color: rgba(255,255,255,0.09) ;
     justify-content:space-around;
     align-items: end;
@@ -43,7 +44,6 @@ body{
     padding:0.625rem;
     margin-right:18.75rem;
     border-radius:0.75rem;
-    filter:blur()
     
 }
 
