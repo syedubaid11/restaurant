@@ -13,19 +13,23 @@ body{
     width: 100vw;
     height: 100vh; 
     background-size:cover;
+    
 }
 
 #contentcontainer{
     display: flex;
     justify-content: center;
     align-items:center;
+    flex-wrap: wrap;
 }
 #content{
-    margin-top:200px;
-    font-size: 100px;
+    margin-top:12rem;
+    font-size: 6.25rem;
     text-align: center;
     font-family: "Dancing Script", cursive;
     color:white;
+    height:100%;
+    width: 100%;
 
 }
 
@@ -35,10 +39,10 @@ body{
     justify-content:space-around;
     align-items: end;
     font-family: "Barlow Condensed", sans-serif;
-    height:60px;
-    padding:10px;
-    margin-right:300px;
-    border-radius:12px;
+    height:3.75rem;
+    padding:0.625rem;
+    margin-right:18.75rem;
+    border-radius:0.75rem;
     filter:blur()
     
 }
@@ -46,7 +50,7 @@ body{
 #home{
     border:none;
     background:none;
-    font-size:25px;
+    font-size:1.56rem;
     color:white;
 }
 #home:hover{
@@ -57,7 +61,7 @@ body{
 #contactus{
     border:none;
     background:none;
-    font-size:25px;
+    font-size:1.56rem;
     color:white;
 }
 
@@ -71,7 +75,7 @@ body{
 #location{
     border:none;
     background:none;
-    font-size:25px;
+    font-size:1.56rem;
     color:white;
 }
 #location:hover{
@@ -82,7 +86,7 @@ body{
 #menu{
     border:none;
     background:none;
-    font-size:25px;
+    font-size:1.56rem;
     color:white;
     
 
@@ -99,6 +103,6 @@ body{
 }
 
 #content-body{
-    font-size: 45px;
+    font-size: 2.813rem;
     
 }
