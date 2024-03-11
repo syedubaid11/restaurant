@@ -42,7 +42,6 @@ body{
 #navbar{
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
     justify-content:space-around;
     align-items:row;
     font-family: "Barlow Condensed", sans-serif;
