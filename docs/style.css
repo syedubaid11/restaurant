@@ -24,7 +24,8 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
-    flex:wrap;
+    flex-wrap:nowrap;
+    flex-direction: row;
     
 }
 #content{
@@ -40,9 +41,10 @@ body{
 
 #navbar{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content:space-around;
-    align-items: end;
+    align-items:row;
     font-family: "Barlow Condensed", sans-serif;
     height:3.75rem;
     width:40%;
